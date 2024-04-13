@@ -9,6 +9,22 @@ I used HTML, CSS, and Javascript.
     - ```Javascript
       setTimeout(function(){}, 3000) // will run after 3 seconds
       ```
+  - **preventDefault()** in event parameter to prevent default functions of events.
+    - ```Javascript
+      element.addEventListener("submit", function(e){
+        e.preventDefault
+      }) // To prevent forms from redirect the user to other pages (or visually reloading the page)
+      ```
+  - **disabled** attribute for interactive elements, to prevent the user from interacting with them, and add a visual change to clarify that. 
+  - **classList** to manage the classes of an element in Javascript
+    - ```Javascript
+      element.classList.toggle("className") // To add the class when is not present, or remove it otherwise
+      ```
+  - **style** to manage the style attribute for HTML elements in Javascript.
+    - ```Javascript
+      element.style.display = "none"
+      element.style.backgroundColor = "#FFFFFF" // use of Camel case for properties with "-"
+      ```
   - **Forms** to make a form area in HTML, and improve input management in Javascript and accessibility.
     - `<label>` to add a description for the input
       - **for** property, to link the label with the input with the id passed as value, so for example, when the user clicks on the label, the focus goes to the input.
@@ -21,6 +37,7 @@ I used HTML, CSS, and Javascript.
         - ```HTML
           <button type="button"><button> <!--- To make buttons that not activate the submit event --->
           ```
+    - **required** input attribute, to prevent the user from submitting the form if the input has no value. 
     - **name** input attribute, to later manage the data entered in Javascript, using FormData. 
     - **FormData** to manage the data entered in the form, in Javascript. 
       - ```Javascript
