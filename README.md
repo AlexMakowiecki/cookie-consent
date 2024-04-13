@@ -49,7 +49,7 @@ I used HTML, CSS, and Javascript.
           ```
       
 ## Preview 
-<img style="text-align:center" src="https://github.com/AlexMakowiecki/coworking-space-site/assets/122258496/343ba621-115c-4d5f-a863-6d2e8b9a511c" width="500px"/> 
+<img style="text-align:center" src="https://github.com/AlexMakowiecki/cookie-consent/assets/122258496/1a10f41a-3fbd-4702-863d-008177f133db" width="500px"/> 
 
 ## About Scrimba!
 
